@@ -12,7 +12,8 @@ A C++ application for reading and visualizing RTT (Real-Time Transfer) data from
 
 - [CMake](https://cmake.org/) >= 3.21
 - [Conan](https://conan.io/) 2.x (`pip install conan`)
-- GCC via MSYS2 ucrt64 (`C:/msys64/ucrt64/bin/g++.exe`)
+- [Doxygen](https://www.doxygen.nl/)
+- GCC via MSYS2 ucrt64
 - MCU connected
 
 ## Setup
