@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/build/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\rtt_viewer.dir\\src\\main.cpp.obj -c C:\\HSH\\6.Semester_Mexiko\\OOP\\Projects\\rtt_viewer\\src\\main.cpp",
+  "file": "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/src/main.cpp",
+  "output": "CMakeFiles/rtt_viewer.dir/src/main.cpp.obj"
+}
+]
