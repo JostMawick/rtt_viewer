@@ -13,7 +13,7 @@ A C++ application for reading and visualizing RTT (Real-Time Transfer) data from
 - [CMake](https://cmake.org/) >= 3.21
 - [Conan](https://conan.io/) 2.x (`pip install conan`)
 - GCC via MSYS2 ucrt64 (`C:/msys64/ucrt64/bin/g++.exe`)
-- OpenOCD running with RTT server enabled
+- MCU connected
 
 ## Setup
 
@@ -33,6 +33,7 @@ rtt_viewer/
 ├── include/      # Header files (.h)
 ├── build/        # Conan generated files
 ├── out/          # CMake build output
+├── tests/        # testing (optional)
 ├── CMakeLists.txt
 └── conanfile.txt
 ```

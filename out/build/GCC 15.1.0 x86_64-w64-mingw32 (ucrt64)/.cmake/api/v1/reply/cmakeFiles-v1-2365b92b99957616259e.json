@@ -214,6 +214,29 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU.cmake"
+		},
+		{
+			"path" : "build/Debug/generators/fmt-config-version.cmake"
+		},
+		{
+			"path" : "build/Debug/generators/fmt-config.cmake"
+		},
+		{
+			"path" : "build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"path" : "build/Debug/generators/fmtTargets.cmake"
+		},
+		{
+			"path" : "build/Debug/generators/fmt-debug-x86_64-data.cmake"
+		},
+		{
+			"path" : "build/Debug/generators/fmt-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -1394,6 +1394,54 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "cmake_quickstart_test_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/build/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)"
+		},
+		{
+			"name" : "cmake_quickstart_test_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "cmake_quickstart_test_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer"
+		},
+		{
+			"name" : "fmt_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for fmt."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/build/Debug/generators"
+		},
+		{
 			"name" : "rtt_viewer_BINARY_DIR",
 			"properties" : 
 			[

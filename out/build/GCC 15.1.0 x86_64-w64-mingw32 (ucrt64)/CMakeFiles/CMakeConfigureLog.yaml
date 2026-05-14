@@ -4066,3 +4066,577 @@ events:
       Running the CXX compiler's linker: "C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe" "-v"
       GNU ld (GNU Binutils) 2.44
 ...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/Debug/generators/cmakedeps_macros.cmake:32 (find_library)"
+      - "build/Debug/generators/fmt-Target-debug.cmake:23 (conan_package_library_targets)"
+      - "build/Debug/generators/fmtTargets.cmake:24 (include)"
+      - "build/Debug/generators/fmt-config.cmake:16 (include)"
+      - "CMakeLists.txt:15 (find_package)"
+    mode: "library"
+    variable: "CONAN_FOUND_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "fmtd"
+    candidate_directories:
+      - "C:/Users/jmawi/.conan2/p/b/fmt8bb808245870f/p/lib/"
+    found: "C:/Users/jmawi/.conan2/p/b/fmt8bb808245870f/p/lib/libfmtd.a"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/build/Debug/generators"
+      ENV{PATH}:
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Siemens\\Automation\\Simatic OAM\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Java\\jdk-22\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\WireGuard\\"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\jmawi\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\jmawi\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\jmawi\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\jmawi\\scoop\\shims"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\jmawi\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Roaming\\npm"
+        - "C:\\Users\\jmawi\\.lmstudio\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Python\\bin"
+        - "C:\\ncs\\nrfutil"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Microsoft\\WinGet\\Links"
+      CMAKE_INSTALL_PREFIX: "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/Debug/generators/cmakedeps_macros.cmake:32 (find_library)"
+      - "build/Debug/generators/fmt-Target-debug.cmake:60 (conan_package_library_targets)"
+      - "build/Debug/generators/fmtTargets.cmake:24 (include)"
+      - "build/Debug/generators/fmt-config.cmake:16 (include)"
+      - "CMakeLists.txt:15 (find_package)"
+    mode: "library"
+    variable: "CONAN_FOUND_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "fmtd"
+    candidate_directories:
+      - "C:/Users/jmawi/.conan2/p/b/fmt8bb808245870f/p/lib/"
+    found: "C:/Users/jmawi/.conan2/p/b/fmt8bb808245870f/p/lib/libfmtd.a"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/build/Debug/generators"
+      ENV{PATH}:
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Siemens\\Automation\\Simatic OAM\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Java\\jdk-22\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\WireGuard\\"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\jmawi\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\jmawi\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\jmawi\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\jmawi\\scoop\\shims"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\jmawi\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Roaming\\npm"
+        - "C:\\Users\\jmawi\\.lmstudio\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Python\\bin"
+        - "C:\\ncs\\nrfutil"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Microsoft\\WinGet\\Links"
+      CMAKE_INSTALL_PREFIX: "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:15 (find_package)"
+    name: "fmt"
+    configs:
+      -
+        filename: "fmtConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "fmt-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "fmt"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/build/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)/CMakeFiles/pkgRedirects/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/build/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)/CMakeFiles/pkgRedirects/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/build/Debug/generators/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/build/Debug/generators/fmt-config.cmake"
+      mode: "config"
+      version: "12.1.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/build/Debug/generators"
+      ENV{PATH}:
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Siemens\\Automation\\Simatic OAM\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Java\\jdk-22\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\WireGuard\\"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\jmawi\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\jmawi\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\jmawi\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\jmawi\\scoop\\shims"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\jmawi\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Roaming\\npm"
+        - "C:\\Users\\jmawi\\.lmstudio\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Python\\bin"
+        - "C:\\ncs\\nrfutil"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Microsoft\\WinGet\\Links"
+      CMAKE_INSTALL_PREFIX: "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/Debug/generators/cmakedeps_macros.cmake:32 (find_library)"
+      - "build/Debug/generators/fmt-Target-debug.cmake:23 (conan_package_library_targets)"
+      - "build/Debug/generators/fmtTargets.cmake:24 (include)"
+      - "build/Debug/generators/fmt-config.cmake:16 (include)"
+      - "CMakeLists.txt:7 (find_package)"
+    mode: "library"
+    variable: "CONAN_FOUND_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "fmtd"
+    candidate_directories:
+      - "C:/Users/jmawi/.conan2/p/b/fmt8bb808245870f/p/lib/"
+    found: "C:/Users/jmawi/.conan2/p/b/fmt8bb808245870f/p/lib/libfmtd.a"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/build/Debug/generators"
+      ENV{PATH}:
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Siemens\\Automation\\Simatic OAM\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Java\\jdk-22\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\WireGuard\\"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\jmawi\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\jmawi\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\jmawi\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\jmawi\\scoop\\shims"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\jmawi\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Roaming\\npm"
+        - "C:\\Users\\jmawi\\.lmstudio\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Python\\bin"
+        - "C:\\ncs\\nrfutil"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Microsoft\\WinGet\\Links"
+      CMAKE_INSTALL_PREFIX: "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/Debug/generators/cmakedeps_macros.cmake:32 (find_library)"
+      - "build/Debug/generators/fmt-Target-debug.cmake:60 (conan_package_library_targets)"
+      - "build/Debug/generators/fmtTargets.cmake:24 (include)"
+      - "build/Debug/generators/fmt-config.cmake:16 (include)"
+      - "CMakeLists.txt:7 (find_package)"
+    mode: "library"
+    variable: "CONAN_FOUND_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "fmtd"
+    candidate_directories:
+      - "C:/Users/jmawi/.conan2/p/b/fmt8bb808245870f/p/lib/"
+    found: "C:/Users/jmawi/.conan2/p/b/fmt8bb808245870f/p/lib/libfmtd.a"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/build/Debug/generators"
+      ENV{PATH}:
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Siemens\\Automation\\Simatic OAM\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Java\\jdk-22\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\WireGuard\\"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\jmawi\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\jmawi\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\jmawi\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\jmawi\\scoop\\shims"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\jmawi\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Roaming\\npm"
+        - "C:\\Users\\jmawi\\.lmstudio\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Python\\bin"
+        - "C:\\ncs\\nrfutil"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Microsoft\\WinGet\\Links"
+      CMAKE_INSTALL_PREFIX: "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/Debug/generators/cmakedeps_macros.cmake:32 (find_library)"
+      - "build/Debug/generators/fmt-Target-debug.cmake:23 (conan_package_library_targets)"
+      - "build/Debug/generators/fmtTargets.cmake:24 (include)"
+      - "build/Debug/generators/fmt-config.cmake:16 (include)"
+      - "CMakeLists.txt:7 (find_package)"
+    mode: "library"
+    variable: "CONAN_FOUND_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "fmtd"
+    candidate_directories:
+      - "C:/Users/jmawi/.conan2/p/b/fmt8bb808245870f/p/lib/"
+    found: "C:/Users/jmawi/.conan2/p/b/fmt8bb808245870f/p/lib/libfmtd.a"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/build/Debug/generators"
+      ENV{PATH}:
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Siemens\\Automation\\Simatic OAM\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Java\\jdk-22\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\WireGuard\\"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\jmawi\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\jmawi\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\jmawi\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\jmawi\\scoop\\shims"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\jmawi\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Roaming\\npm"
+        - "C:\\Users\\jmawi\\.lmstudio\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Python\\bin"
+        - "C:\\ncs\\nrfutil"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Microsoft\\WinGet\\Links"
+      CMAKE_INSTALL_PREFIX: "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/Debug/generators/cmakedeps_macros.cmake:32 (find_library)"
+      - "build/Debug/generators/fmt-Target-debug.cmake:60 (conan_package_library_targets)"
+      - "build/Debug/generators/fmtTargets.cmake:24 (include)"
+      - "build/Debug/generators/fmt-config.cmake:16 (include)"
+      - "CMakeLists.txt:7 (find_package)"
+    mode: "library"
+    variable: "CONAN_FOUND_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "fmtd"
+    candidate_directories:
+      - "C:/Users/jmawi/.conan2/p/b/fmt8bb808245870f/p/lib/"
+    found: "C:/Users/jmawi/.conan2/p/b/fmt8bb808245870f/p/lib/libfmtd.a"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/build/Debug/generators"
+      ENV{PATH}:
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Siemens\\Automation\\Simatic OAM\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Java\\jdk-22\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\WireGuard\\"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\jmawi\\scoop\\apps\\python313\\current\\Scripts"
+        - "C:\\Users\\jmawi\\scoop\\apps\\python313\\current"
+        - "C:\\Users\\jmawi\\scoop\\apps\\git\\current\\bin"
+        - "C:\\Users\\jmawi\\scoop\\shims"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\jmawi\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Roaming\\npm"
+        - "C:\\Users\\jmawi\\.lmstudio\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Python\\bin"
+        - "C:\\ncs\\nrfutil"
+        - "C:\\Users\\jmawi\\AppData\\Local\\Microsoft\\WinGet\\Links"
+      CMAKE_INSTALL_PREFIX: "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/install/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+...

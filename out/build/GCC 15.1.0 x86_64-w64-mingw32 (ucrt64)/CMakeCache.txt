@@ -267,6 +267,18 @@ CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_vie
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+cmake_quickstart_test_BINARY_DIR:STATIC=C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/build/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)
+
+//Value Computed by CMake
+cmake_quickstart_test_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+cmake_quickstart_test_SOURCE_DIR:STATIC=C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer
+
+//The directory containing a CMake configuration file for fmt.
+fmt_DIR:PATH=C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/build/Debug/generators
+
+//Value Computed by CMake
 rtt_viewer_BINARY_DIR:STATIC=C:/HSH/6.Semester_Mexiko/OOP/Projects/rtt_viewer/out/build/GCC 15.1.0 x86_64-w64-mingw32 (ucrt64)
 
 //Value Computed by CMake
