@@ -43,3 +43,7 @@ rtt_viewer/
 | Library | Version | Purpose           |
 | ------- | ------- | ----------------- |
 | fmt     | 12.1.0  | String formatting |
+
+## Goals
+
+- Readable Doxygen Output (just default settings rn)
