@@ -68,4 +68,5 @@ __pycache__/
 build/
 out/
 
+*.bkp
 # Keep track of important files: do not ignore source or include directories
